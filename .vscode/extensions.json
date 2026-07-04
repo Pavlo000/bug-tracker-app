@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "fwcd.kotlin",
+    "mathiasfrohlich.Kotlin",
+    "adelphes.android-dev-ext"
+  ],
+  "settings": {
+    "kotlin.languageServer.enabled": true
+  }
+}
