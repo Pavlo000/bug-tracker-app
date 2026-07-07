@@ -1,0 +1,20 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "title": "Login button unresponsive on Android 14",
+      "description": "Tapping login does nothing on Pixel 8 with Android 14.",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "createdAt": 1717200000000
+    },
+    {
+      "id": 2,
+      "title": "Dark mode contrast too low",
+      "description": "Secondary text is hard to read in dark theme settings screen.",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": 1717286400000
+    }
+  ]
+}
