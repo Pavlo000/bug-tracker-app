@@ -191,6 +191,14 @@ private fun IssueCard(
                     modifier = Modifier.padding(top = 4.dp)
                 )
             }
+            if (issue.syncStatus == SyncStatus.SYNC_FAILED && issue.retryCount > 0) {
+                Text(
+                    text = "Retry ${issue.retryCount}/${IssueViewModel.MAX_RETRY_DISPLAY}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.padding(top = 2.dp)
+                )
+            }
         }
     }
 }

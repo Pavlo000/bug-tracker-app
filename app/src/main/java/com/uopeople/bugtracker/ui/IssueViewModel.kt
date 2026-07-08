@@ -18,6 +18,10 @@ import kotlinx.coroutines.launch
 
 class IssueViewModel(application: Application) : AndroidViewModel(application) {
 
+    companion object {
+        const val MAX_RETRY_DISPLAY = 5
+    }
+
     private val app = application as BugTrackerApp
     private val repository = app.repository
 
